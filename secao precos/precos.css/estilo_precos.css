@@ -55,6 +55,15 @@ color:
         font-weight: bold;
         color: black;}
 
+    .card-menu-topo{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }    
+
     .card-menu-topo a{ 
     margin: 10px;
     text-decoration: none;
@@ -62,7 +71,8 @@ color:
     font-size: 18px;
     font-weight: 500; 
     padding: 3px 4px;
-    border-radius: 5px;  }
+    border-radius: 5px;
+    text-align: center;  }
 
     .card-menu-topo a:hover{
         background-color: #fff;
